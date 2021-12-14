@@ -19,7 +19,7 @@ function PostWidget({ categories, slug }) {
     // };
   }, [slug]);
 
-  console.log(relatedPosts);
+  // console.log(relatedPosts);
 
   return (
     <div className='bg-white shadow-lg rounded-lg p-8 mb-8'>
