@@ -2,8 +2,8 @@ import React from 'react';
 import Image from 'next/image';
 function Author({ author }) {
   return (
-    <div class='max-w-sm w-full lg:max-w-full lg:flex'>
-      <div class='border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 leading-normal shadow-lg'>
+    <div className='max-w-sm w-full lg:max-w-full lg:flex'>
+      <div className='border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 leading-normal shadow-lg'>
         <div class='flex items-center'>
           <Image
             unoptimized
@@ -13,11 +13,11 @@ function Author({ author }) {
             width={'100px'}
             className='align-middle rounded-full'
           />
-          <div class='text-sm ml-8'>
-            <p class='text-gray-900 leading-none text-gray-700 text-xl mb-3'>
+          <div className='text-sm ml-8'>
+            <p className='text-gray-900 leading-none text-gray-700 text-xl mb-3'>
               {author.name}
             </p>
-            <p class='text-gray-600'>{author.bio}</p>
+            <p className='text-gray-600'>{author.bio}</p>
           </div>
         </div>
       </div>
