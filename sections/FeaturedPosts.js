@@ -83,10 +83,9 @@ function FeaturedPosts() {
         itemClass='px-4'
       >
         {dataLoaded &&
-          featuredPosts.map((post, index) =>
-            console.log(post)
-            // <FeaturedPostCard key={index} post={post} />
-          )}
+          featuredPosts.map((post, index) => (
+            <FeaturedPostCard key={index} post={post} />
+          ))}
       </Carousel>
     </div>
   );

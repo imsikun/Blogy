@@ -9,8 +9,8 @@ function Author({ author }) {
             unoptimized
             src={author.photo.url}
             alt={author.name}
-            height={'100px'}
-            width={'100px'}
+            height='100px'
+            width='100px'
             className='align-middle rounded-full'
           />
           <div className='text-sm ml-8'>

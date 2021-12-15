@@ -6,6 +6,7 @@ import {
   FeaturedPostCard,
 } from '../components/index';
 import { getPosts } from '../services';
+import FeaturedPosts from '../sections/FeaturedPosts';
 
 export default function Home({ posts }) {
   return (
@@ -15,6 +16,7 @@ export default function Home({ posts }) {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       {/* <FeaturedPostCard /> */}
+      <FeaturedPosts />
       <div className='grid grid-cols-1 lg:grid-cols-12 gap-12'>
         <div className='lg:col-span-8 col-span-1'>
           {posts.map((post, idx) => (
